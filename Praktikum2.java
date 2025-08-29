@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Praktikum2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -12,7 +11,6 @@ public class Praktikum2 {
 
         System.out.print("Masukkan angka kedua: ");
         double angka2 = input.nextDouble();
-
         double hasil = 0;
 
         if (operator == '+') {
