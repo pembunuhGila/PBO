@@ -1,3 +1,5 @@
+
+
 public class Praktikum1 {
     public static void main(String[] args) {
         String merk1 = "Toyota"; String warna1 = "Hitam"; int kecepatan1 = 60;
