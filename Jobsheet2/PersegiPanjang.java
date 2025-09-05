@@ -1,14 +1,14 @@
 package Jobsheet2;
 
 public class PersegiPanjang {
-    public double panjang;
-    public double lebar;
+    public int panjang;
+    public int lebar;
     
-    public double getKeliling() {
+    public int getKeliling() {
         return 2*(panjang + lebar);
     }
 
-    public double getLuas() {
+    public int getLuas() {
         return panjang * lebar;
     }
 
