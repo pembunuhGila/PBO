@@ -17,5 +17,6 @@ public class PersegiPanjang {
         System.out.println("Lebar       : " + lebar);
         System.out.println("Keliling    : " + getKeliling());
         System.out.println("Luas        : " + getLuas());
+        System.out.println();
     }
 }
