@@ -7,8 +7,8 @@ public class PersegiPanjangDemo {
         p1.lebar = 10;
 
         PersegiPanjang p2 = new PersegiPanjang();
-        p1.panjang = 6;
-        p1.lebar = 12;
+        p2.panjang = 6;
+        p2.lebar = 12;
 
         p1.displayInfo();
         p2.displayInfo();
