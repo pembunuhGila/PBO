@@ -33,6 +33,10 @@ public class Motor {
             this.kecepatan = 100;
             System.out.println("Kecepatan maksimal adalah 100. Diset ke 100.");
         } 
+        else if (kecepatan < 0) {
+            this.kecepatan = 0;
+            System.out.println("Kecepatan tidak boleh negatif. Diset ke 0.");
+        } 
         else {
             this.kecepatan = kecepatan;
         }
