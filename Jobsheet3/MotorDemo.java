@@ -6,7 +6,8 @@ public class MotorDemo {
         motor1.displayStatus();
 
         motor1.setPlatNomor("B 0838 XZ");
-        motor1.setKecepatan(50);
+        motor1.setIsMesinOn(true);
+        motor1.setKecepatan(120);
         motor1.displayStatus();
 
         Motor motor2 = new Motor();
