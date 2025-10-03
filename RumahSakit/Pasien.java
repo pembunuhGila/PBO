@@ -11,7 +11,7 @@ public class Pasien {
         return noRekamMedis;
     }
 
-    public void setgetNoRekamMedis(String noRekamMedis) {
+    public void setNoRekamMedis(String noRekamMedis) {
         this.noRekamMedis = noRekamMedis;
     }
 
