@@ -12,7 +12,7 @@ public class Pegawai {
     public void setGaji(double gaji) {
         this.gaji = gaji;
     }
-    
+
     public double getGaji() {
         return gaji;
     }
