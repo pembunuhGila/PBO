@@ -1,3 +1,5 @@
+package InterfaceLatihan;
+
 public class MainTugas {
     public static void main(String[] args) {
         Truk t = new Truk();

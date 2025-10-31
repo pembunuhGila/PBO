@@ -1,3 +1,5 @@
+package InterfaceLatihan;
+
 public class Truk extends Kendaraan {
     public int kapasisitasMuatan;
 

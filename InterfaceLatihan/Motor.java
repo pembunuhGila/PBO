@@ -1,3 +1,5 @@
+package InterfaceLatihan;
+
 public class Motor extends Kendaraan {
     public String bahanFrame;
 

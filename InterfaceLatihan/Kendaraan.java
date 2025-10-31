@@ -1,3 +1,5 @@
+package InterfaceLatihan;
+
 public abstract class Kendaraan {
     public String merk;
     public double kecepatan;
