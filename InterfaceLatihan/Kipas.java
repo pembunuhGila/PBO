@@ -8,11 +8,8 @@ public class Kipas extends AlatElektronik {
         this.jenis = jenis;
     }
 
-    public String getJenis() {
-        return jenis;
-    }
-
-    public void setJenis(String jenis) {
-        this.jenis = jenis;
+    @Override
+    public String getInfo() {
+        return super.getInfo() + ", Jenis: " + jenis;
     }
 }

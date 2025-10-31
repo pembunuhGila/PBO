@@ -11,27 +11,31 @@ public class AlatElektronik {
         this.merk = merk;
     }
 
-    public double getHarga() {
-        return harga;
+    public double getHarga() { 
+        return harga; 
     }
 
-    public void setHarga(double harga) {
-        this.harga = harga;
+    public void setHarga(double harga) { 
+        this.harga = harga; 
     }
 
     public String getWarna() {
-        return warna;
+         return warna; 
     }
 
-    public void setWarna(String warna) {
-        this.warna = warna;
+    public void setWarna(String warna) { 
+        this.warna = warna; 
     }
 
-    public String getMerk() {
-        return merk;
+    public String getMerk() { 
+        return merk; 
     }
 
-    public void setMerk(String merk) {
-        this.merk = merk;
+    public void setMerk(String merk) { 
+        this.merk = merk; 
+    }
+
+    public String getInfo() {
+        return "Merk: " + merk + ", Warna: " + warna + ", Harga: Rp" + harga;
     }
 }

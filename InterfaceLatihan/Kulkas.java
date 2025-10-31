@@ -8,11 +8,8 @@ public class Kulkas extends AlatElektronik {
         this.jumlahPintu = jumlahPintu;
     }
 
-    public int getJumlahPintu() {
-        return jumlahPintu;
-    }
-
-    public void setJumlahPintu(int jumlahPintu) {
-        this.jumlahPintu = jumlahPintu;
+    @Override
+    public String getInfo() {
+        return super.getInfo() + ", Jumlah Pintu: " + jumlahPintu;
     }
 }
