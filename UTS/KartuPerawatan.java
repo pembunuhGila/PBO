@@ -17,7 +17,7 @@ public class KartuPerawatan {
     }
 
     // Enkapsulasi
-    public String getIdKartu() { 
+    public String getIdKartu() {  
         return idKartu;
     }
 

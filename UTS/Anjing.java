@@ -1,6 +1,5 @@
 package UTS;
 
-// Pewarisan dari Hewan
 public class Anjing extends Hewan {
     private String ras;
 
@@ -13,7 +12,7 @@ public class Anjing extends Hewan {
     public String getRas() { 
         return ras; 
     }
-    
+
     public void setRas(String ras) { 
         this.ras = ras; 
     }
